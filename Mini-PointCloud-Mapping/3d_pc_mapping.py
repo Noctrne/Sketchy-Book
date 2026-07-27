@@ -1,19 +1,23 @@
 import numpy as np
-from numpy import random
-import matplotlib.pyplot as plt 
-
-class PointCloud:
-    def __init__(self, p: int, l: int, t: int, ):
-        self.p = p
-        self.l = l
-        self.t = t
+import matplotlib.pyplot as plt
 
 
 
-    def volumetric_plot
+class CloudPlot:
+    def __init__(self):
+        pass
+
+    def visualize(self):
+        plt.figure()
+        plt.axes(projection = '3d')
+        plt.show()
+
+
 
 def main():
-    dataPointCloud = PointCloud()
+    test = CloudPlot()
+    test.visualize()
+
 
 
 if __name__ == '__main__':
